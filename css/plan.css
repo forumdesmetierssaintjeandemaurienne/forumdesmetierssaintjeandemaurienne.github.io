@@ -1,0 +1,658 @@
+#le-plan {
+	width:100%;
+}
+#un,
+#deux,
+#trois,
+#four {
+	transition: all 0.25s;
+}
+#Stand-1.active {
+	z-index: 200;
+}
+#Stand-2.active {
+	z-index: 200;
+}
+#Stand-3.active {
+	z-index: 200;
+}
+#Stand-4.active {
+	z-index: 200;
+}
+#Br-1-1, #BR-1-2, #BR-1-3,
+#long-b, #small-b,
+#Number-1, #Number-2, #Number-3, #Number-4,
+#Br-3-2, #Br-3-1, #Flat-down, #Flat-up, #LR,
+#Horizontal, #Vertical{
+	transition: 0.5s all cubic-bezier(0.34, 1.15, 0.7, 1);
+	&:hover {
+		transition: 0.5s all cubic-bezier(0.34, 1.15, 0.7, 1);
+	}
+}
+#Stand-1,
+#Stand-2,
+#Stand-3,
+#Stand-4{
+	transition:opacity 500ms;
+}
+#text1,
+#text2,
+#text3,
+#text4 {
+	transition: all 0.2s;
+	font-size: 22pt;
+	font-family: Dancing Script;
+	-webkit-user-select: none; /* Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+}
+
+.hover-1,
+.hover-2,
+.hover-3,
+.hover-4{
+	opacity: 0;
+	z-index: 200;
+}
+
+.s-title {
+	font-size: 30pt;
+}
+
+.st2 {
+	fill: #723895;
+}
+.st3 {
+	font-family: Arial;
+}
+.st7 {
+	fill: #fff;
+}
+.st8 {
+	fill: #a7a9ac;
+}
+.st9 {
+	fill: #374556;
+}
+.st10 {
+	font-size: 60px;
+}
+.st11 {
+	fill: #ed237c;
+}
+.firsts{
+	fill:#c3da5e;
+}
+.st12 {
+	fill: #ed217c;
+}
+.st13 {
+	font-family: Dancing Script;
+}
+.st15 {
+	font-size: 34.652px;
+}
+.st16 {
+	fill: #1ebcb8;
+}
+.st19 {
+	fill: #445ea0;
+}
+.st21 {
+	fill: #293d7c;
+}
+.st23 {
+	fill: #d9eafc;
+}
+.st24 {
+	fill: #c3ddf4;
+}
+.st25 {
+	fill: #aec1ed;
+}
+.st26 {
+	fill: #ffaf10;
+}
+.st27 {
+	fill: #ff9518;
+}
+.st28 {
+	fill: #5dc1d8;
+}
+.st29 {
+	fill: #ccc;
+}
+.st31 {
+	fill: #e6e6e6;
+}
+.st34 {
+	fill: #b3b3b3;
+}
+.st35 {
+	fill: #4d4d4d;
+}
+.st36 {
+	fill: gray;
+}
+.st39 {
+	fill: #fccc38;
+}
+.st40 {
+	fill: #5358a1;
+}
+.st43 {
+	fill: #bc8f6f;
+}
+.st44 {
+	fill: #cb9e78;
+}
+.st45 {
+	fill: #bab8b9;
+}
+.st46 {
+	fill: #d9d7d8;
+}
+.st49 {
+	fill: #599072;
+}
+.st50 {
+	fill: #85b6cf;
+}
+.st52 {
+	fill: #70b48f;
+}
+.st55 {
+	fill: #ffa304;
+}
+.st64 {
+	fill: #c6c5ca;
+}
+.st67 {
+	fill: #fd3c65;
+}
+.st68 {
+	fill: #4dbbeb;
+}
+.st69 {
+	fill: #fff5cd;
+}
+.st70 {
+	fill: #1e0478;
+}
+.st71 {
+	fill: #6f7ccd;
+}
+.st73 {
+	fill: #94e7ef;
+}
+.st75 {
+	fill: #e9eff4;
+}
+.st76 {
+	fill: #6cbdbd;
+}
+.st77 {
+	fill: #008fcf;
+}
+.st78 {
+	fill: #00c9dd;
+}
+.st79 {
+	fill: #ffcd34;
+}
+.st83 {
+	fill: #4398d1;
+}
+.st84 {
+	fill: #3e8cc7;
+}
+.st85 {
+	fill: #fdb62f;
+}
+.st86 {
+	fill: #87ced9;
+}
+.st87 {
+	fill: #78c3cf;
+}
+.st88 {
+	fill: #f7962e;
+}
+.st90 {
+	font-size: 36px;
+}
+.st91 {
+	font-size: 30px;
+}
+.st92 {
+	fill: #72cac5;
+}
+.st93 {
+	fill: #133f00;
+}
+.st94 {
+	fill: #ff5b62;
+}
+.st95 {
+	fill: #3a312a;
+}
+.st97,
+.st98,
+.st99 {
+	fill: none;
+	stroke-width: 3;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+}
+.st97 {
+	stroke-linejoin: round;
+	stroke: #94d86a;
+}
+.st98,
+.st99 {
+	stroke: #ff5b62;
+}
+.st99 {
+	stroke: #3a312a;
+	stroke-width: 2;
+}
+.st101 {
+	fill: #fed298;
+}
+.st103 {
+	fill: #21d0c3;
+}
+.st106 {
+	fill: #48c397;
+}
+.st107 {
+	fill: #0fa196;
+}
+.st108 {
+	fill: #f9e0a6;
+}
+.st111 {
+	fill: #92e0c0;
+}
+.st112 {
+	fill: #fce8cb;
+}
+.st114 {
+	fill: #f5978a;
+}
+.st115 {
+	fill: #87796f;
+}
+.st116 {
+	fill: #d7e057;
+}
+
+
+
+.st01 {
+	fill: #ed237c;
+}
+.st11 {
+	fill: #ed217c;
+}
+.st31 {
+	fill: #fff;
+}
+.st81 {
+	font-size: 34.652px;
+}
+.st911 {
+	fill: #a25b40;
+}
+.st111 {
+	fill: #e99a48;
+}
+.st131 {
+	fill: #c1c4c4;
+}
+.st141 {
+	fill: #fed248;
+}
+.st151 {
+	fill: #1ebcb8;
+}
+.st181 {
+	fill: #445ea0;
+}
+.st201 {
+	fill: #293d7c;
+}
+.st221 {
+	fill: #d9eafc;
+}
+.st231 {
+	fill: #c3ddf4;
+}
+.st241 {
+	fill: #aec1ed;
+}
+.st251 {
+	fill: #ffaf10;
+}
+.st261 {
+	fill: #ff9518;
+}
+.st271 {
+	fill: #5dc1d8;
+}
+.st281 {
+	fill: #ccc;
+}
+.st301 {
+	fill: #e6e6e6;
+}
+.st331 {
+	fill: #b3b3b3;
+}
+.st341 {
+	fill: #4d4d4d;
+}
+.st351 {
+	fill: gray;
+}
+.st381 {
+	fill: #fccc38;
+}
+.st391 {
+	fill: #5358a1;
+}
+.st421 {
+	fill: #bc8f6f;
+}
+.st431 {
+	fill: #cb9e78;
+}
+.st441 {
+	fill: #bab8b9;
+}
+.st451 {
+	fill: #d9d7d8;
+}
+.st481 {
+	fill: #599072;
+}
+.st491 {
+	fill: #85b6cf;
+}
+.st511 {
+	fill: #70b48f;
+}
+.st541 {
+	fill: #ffa304;
+}
+.st631 {
+	fill: #c6c5ca;
+}
+.st661 {
+	fill: #fd3c65;
+}
+.st671 {
+	fill: #4dbbeb;
+}
+.st681 {
+	fill: #fff5cd;
+}
+.st691 {
+	fill: #1e0478;
+}
+.st701 {
+	fill: #6f7ccd;
+}
+.st721 {
+	fill: #94e7ef;
+}
+.st741{
+	fill: #e9eff4;
+}
+.st751 {
+	fill: #6cbdbd;
+}
+.st761 {
+	fill: #008fcf;
+}
+.st771 {
+	fill: #00c9dd;
+}
+.st781 {
+	fill: #ffcd34;
+}
+.st821 {
+	fill: #4398d1;
+}
+.st831 {
+	fill: #3e8cc7;
+}
+.st841 {
+	fill: #fdb62f;
+}
+.st851 {
+	fill: #87ced9;
+}
+.st861 {
+	fill: #78c3cf;
+}
+.st871 {
+	fill: #f7962e;
+}
+
+.st0a {
+	fill: #a7a9ac;
+}
+.st2a {
+	fill: #fff;
+}
+.st5a {
+	font-family: Dancing Script;
+}
+.st7a {
+	font-size: 34.652px;
+}
+.st10a {
+	fill: #fccc38;
+}
+.st11a {
+	fill: #5358a1;
+}
+.st14a {
+	fill: #1e0478;
+}
+.st15a {
+	fill: #6f7ccd;
+}
+.st17a {
+	fill: #94e7ef;
+}
+.st18a {
+	fill: #303c42;
+}
+.st20a,
+.st21a {
+	enable-background: new;
+}
+.st20a {
+	fill: #fff;
+	opacity: 0.2;
+}
+.st21a {
+	opacity: 0.1;
+}
+.st23a {
+	fill: #e6af78;
+}
+.st26a {
+	fill: #f0c087;
+}
+.st27a {
+	fill: #e4eaf6;
+}
+.st33a {
+	fill: #5a5a5a;
+}
+.st36a {
+	fill: #838383;
+}
+.st39a {
+	fill: #ff6b81;
+}
+.st40a {
+	fill: #ffd86e;
+}
+.st41a {
+	fill: #80e0dc;
+}
+.st42a {
+	fill: #ff435f;
+}
+.st43a {
+	fill: #ffb509;
+}
+.st44a {
+	fill: #00a8b0;
+}
+.st49a {
+	fill: #3f4e56;
+}
+.st51a {
+	fill: #ed4720;
+}
+.st52a {
+	fill: #f5fafc;
+}
+.st53a {
+	fill: #55d5f2;
+}
+.st56a {
+	fill: #f4ad31;
+}
+.st57a {
+	fill: #dd820a;
+}
+.st59a {
+	fill: #af1909;
+}
+.st60a {
+	fill: #ffcdac;
+}
+.st61a {
+	fill: #7d9bff;
+}
+.st65a {
+	fill: #f5b955;
+}
+.st68a {
+	fill: #ffb69e;
+}
+.st71a {
+	fill: #252d5c;
+}
+.st73a {
+	fill: #ff3c3c;
+}
+.st74a {
+	fill: #80391b;
+}
+.st76a {
+	fill: #78beff;
+}
+.st77a {
+	fill: #ba6746;
+}
+.st0b {
+	fill: #72cac5;
+}
+.st1b {
+	font-family: Dancing Script;
+}
+.st3b {
+	font-size: 30px;
+}
+.st4b {
+	fill: #ff5b62;
+}
+.st5b {
+	fill: #666;
+}
+.st6b {
+	fill: #fed298;
+}
+.st7b {
+	fill: #f0ba7d;
+}
+.st8b {
+	fill: #21d0c3;
+}
+.st9b {
+	fill: #fff;
+}
+.st12b {
+	fill: #48c397;
+}
+.st13b {
+	fill: #0fa196;
+}
+.st14b {
+	fill: #f9e0a6;
+}
+.st17b {
+	fill: #92e0c0;
+}
+.st18b {
+	fill: #3a312a;
+}
+.st19b {
+	fill: #fce8cb;
+}
+.st21b {
+	fill: #f5978a;
+}
+.st22b {
+	fill: #87796f;
+}
+.st23b {
+	fill: #d7e057;
+}
+.st28b {
+	fill: #e91300;
+}
+.st30b {
+	fill: #e54f4f;
+}
+.st34b {
+	fill: #ffe1b2;
+}
+.st38b {
+	fill: #ffbe1e;
+}
+.st40b {
+	fill: #7e5449;
+}
+.st44b {
+	fill: #eef3f7;
+}
+.st46b {
+	fill: #0f7986;
+}
+.st47b {
+	fill: #fefefe;
+}
+.st49b {
+	fill: #4d4d4d;
+}
+.st50b {
+	fill: #076673;
+}
+.st56b {
+	fill: #6a80ff;
+}
+.st57b {
+	fill: #a0e557;
+}
+.st59b {
+	fill: #fcc69d;
+}
